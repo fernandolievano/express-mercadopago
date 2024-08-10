@@ -2,8 +2,8 @@ const express = require("express");
 
 const router = express.Router();
 
-router.get("/", () => {
-  res.send("Hello, i am a route named /mercadopago");
+router.get("/", (req, res) => {
+  res.send("Hello, i am a route named /mp");
 });
 
 module.exports = router;
