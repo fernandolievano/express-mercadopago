@@ -1,0 +1,39 @@
+{
+  "name": "playground-mercadopago-api",
+  "version": "1.0.0",
+  "description": "Proyecto de prueba usado para el aprendizaje de la API de MercadoPago",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandolievano/express-mercadopago.git"
+  },
+  "keywords": [
+    "mercadopago",
+    "express",
+    "node",
+    "javascript",
+    "fernandolievano",
+    "backend",
+    "sdk"
+  ],
+  "author": "fernandolievano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fernandolievano/express-mercadopago/issues"
+  },
+  "homepage": "https://github.com/fernandolievano/express-mercadopago#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.9.0",
+    "nodemon": "^3.1.4"
+  }
+}
